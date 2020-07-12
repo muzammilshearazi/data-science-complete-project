@@ -17,10 +17,10 @@ the result in term of probability for passing the driving  test.
 1- First you should have install python editor such as pycharm or Anaconda3
 
 2- set envoriement variable for the following folder path
-C:\Users\Muzammil\Anaconda3
-C:\Users\Muzammil\Anaconda3\Scripts
-C:\Users\Muzammil\Anaconda3\Library\bin
-Note: here I use my windows username so you must use your windows username
+* C:\Users\Muzammil\Anaconda3
+* C:\Users\Muzammil\Anaconda3\Scripts
+* C:\Users\Muzammil\Anaconda3\Library\bin
+Note: here I use my username so you must use your windows username
 
 3- install all python librries which are using in this project
 
