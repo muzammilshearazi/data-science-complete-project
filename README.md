@@ -25,20 +25,20 @@ Note: here I use my username so you must use your windows username
 3- install all python librries which are using in this project
 
 4- intsall flask by writing this command on command prompt
-pip install flask
+* pip install flask
 
 5- Download the my-app folder from github 
 
 6- Open command promat and go to my-app folder
 
 7- run following command on command prompt
- set FLASK_APP=logistic_regression_app.py
+* set FLASK_APP=logistic_regression_app.py
 
 8- After succfully run above command now run the this command 
- flask run --host=0.0.0.0
+* flask run --host=0.0.0.0
 
 9- After succfully run above command now open the web browser and write the follwing URL
-http://localhost:5000/ 
+* http://localhost:5000/ 
 
 10- Afte completing nwo you will see the html page put the test scores in teh field and pridict the probabily
  of passing the driving test.
