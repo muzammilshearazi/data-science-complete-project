@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my flask dmv test app</title>
+	<style>
+		*{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<center>
+<body  style="background-color: linen;">
+
+<h1 style="background-color:#ffe6e6"> Logistic Regression with NumPy and Python </h1>
+<br><br>
+DMV TEST01 SCORE : <input id="name-input1" type="text"/><br><br>
+DMV TEST02 SCORE : <input id="name-input2" type="text"/><br><br>
+<button  style="background-color:#d6d6c2" id="name-button">Submit Data</button>
+<p id="greeting"></p>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script >
+	$("#name-button").click(function(event){
+		let data ={
+			score1:$("#name-input1").val(),
+			score2:$("#name-input2").val()		 
+				}
+				$.post("http://localhost:5000/message",JSON.stringify(data),function(repsonse){
+		$("#greeting").text(repsonse.greeting);
+		console.log(repsonse);
+	});
+	});
+</script>
+</body>
+</center>
+</html>
