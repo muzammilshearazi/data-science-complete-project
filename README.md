@@ -1,7 +1,7 @@
 # data-science-complete-project
 ### Project Name : Logistic Regression with NumPy and Python
 
-Project Detail :-
+### Project Detail :-
 
 It is a guided project that I did  from coursera.The aim of this project and is to implement all the 
 machinery, including gradient descent, cost function, and logistic regression, of the various learning 
@@ -12,7 +12,7 @@ such sigmiod function,cost function and gradeint descent.After training I comput
 regression model on given dataset.In the last I gave the new data point to the logestic model and pridict 
 the result in term of probability for passing the driving  test.
 
-Deployment Instruction :-
+### Deployment Instruction :-
 
 1- First you should have install python editor such as pycharm or Anaconda3
 
@@ -46,6 +46,4 @@ http://localhost:5000/
 Not:I also provide the link of vedio where you can easily undersatnd the whole project with coding 
 
 
-GitHub Link:
-
-Video Link:
+### Video Link: https://www.youtube.com/watch?v=SRsfvm7wKY8
