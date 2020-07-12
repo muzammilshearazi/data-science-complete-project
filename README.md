@@ -20,7 +20,7 @@ the result in term of probability for passing the driving  test.
 * C:\Users\Muzammil\Anaconda3
 * C:\Users\Muzammil\Anaconda3\Scripts
 * C:\Users\Muzammil\Anaconda3\Library\bin
-Note: here I use my username so you must use your windows username
+* Note: here I use my username so you must use your windows username
 
 3- install all python librries which are using in this project
 
